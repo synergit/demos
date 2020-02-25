@@ -1,0 +1,9 @@
+project:
+    namespace: _
+    packages:
+        demo:
+            actions:
+                hello-world:
+                    function: helloworld.py
+                    runtime: python:3.7
+                    web: true
